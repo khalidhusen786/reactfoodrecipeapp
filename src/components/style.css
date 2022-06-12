@@ -13,8 +13,8 @@ html{
 
 .header img{
     border-radius: 10em;
-     width: 20em;
-     height: 20em; 
+     width: 10em;
+     height: 10em; 
      
     
 }
@@ -26,7 +26,7 @@ html{
 }
 
 .header input{
-    height: 3em;
+    height: 2.6em;
     width: 50em;
     border: none;
     outline: none;
@@ -37,4 +37,30 @@ html{
     /* font-size: 2em; */
     
     
+}
+.category{
+    /* padding: 2em; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.category span{
+    background-color: rgb(78, 76, 76);
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 1em 1em 1em;
+    color: aliceblue;
+    
+}
+
+.category span img{
+    height: 4em;
+    width: 4em;
+   outline: none;
 }

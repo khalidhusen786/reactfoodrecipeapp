@@ -9,7 +9,7 @@ function Header() {
         <div className='header'>
         <img src='./foodlogo.png' alt=''/>
       <input type="text" placeholder='Search Your Meal' ></input>
-      <div class="category">
+      <div className="category">
         <span>
             <img src='./americanfood1.png' alt=''/>
             <figcaption>American</figcaption>
@@ -30,7 +30,7 @@ function Header() {
 
       </div>
       </div>
-    </div>
+    </div> 
   )
 }
 
